@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Alvyn Le's personal website",
+  "main": "controller.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alvyn279.github.io"
+  },
+  "keywords": [
+    "personal-website",
+    "one-pager",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Alvyn Le",
+  "license": "ISC",
+  "dependencies": {
+    "lg-fullscreen": "^1.0.1",
+    "lg-thumbnail.js": "^1.1.0",
+    "lightgallery.js": "^1.1.2"
+  }
+}

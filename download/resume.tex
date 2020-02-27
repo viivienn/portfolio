@@ -1,0 +1,146 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Alvyn Duy-Khoi Le}}\\
+	Montreal, Canada $\cdot$ alvyn279@gmail.com $\cdot$ 514-578-4643 $\cdot$ https://alvynle.me  $\cdot$ https://github.com/alvyn279\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Concordia University}\hfill Montreal, Canada\\
+BEng Software Engineering \textit{Co-op} \hfill August 2016 - May 2020\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{INEAT Canada Inc.} \hfill Montreal, Canada\\
+\textit{\textbf{Full Stack Developer Intern}} \hfill May 2019 - Present\\
+\vspace{0.2mm}
+\begin{itemize} \itemsep 0.3pt
+	\item Developing core visuals and REST API interactions for a mobile application in React Native integrated with Redux while ensuring their functionality with unit and end-to-end tests
+	\item Refactoring outdated legacy JS code into ES6 standards
+	\item Acted as primary contact point for the maintenance and deployment of existing iOS and Android solutions used by hundreds of clients daily
+\end{itemize}
+\textbf{Ericsson} \hfill Montreal, Canada\\
+\textit{\textbf{Software Developer Intern} - MediaFirst Delivery Node} \hfill May 2018 - August 2018\\
+\vspace{0.2mm}
+\begin{itemize} \itemsep 0.3pt
+	\item Developed and validated test cases in the Java-based functional testing (FT) framework of the product
+	\item Contributed to the software's Management API by reducing code duplication in Shell scripts and participating in code review through Gerrit
+\end{itemize}
+\textbf{Ericsson} \hfill Montreal, Canada\\
+\textit{\textbf{Software Developer Intern} - License Management} \hfill January 2018 - May 2018\\
+\vspace{0.2mm}
+\begin{itemize} \itemsep 0.3pt
+	\item Developed and improved core features for a Django web-based application serving as tool for the continuous integration and testing of the License Management software
+	\item Interacted with Jenkins REST API and Jenkins job configurations through Python scripts to fetch relevant data pertaining to the product's development
+\end{itemize}
+
+\header{Skills}
+\vspace*{2mm}
+\begin{tabular}{ l l }
+	Programming Languages: & Java, Python, JavaScript (ES6), TypeScript, C++, Go                             \\
+	Frameworks:            & React, Django, Redux, React Native, MongoDB, HTTP REST, AWS, Spring \\
+	Courses:               & Design Patterns, Object-Oriented Programming, Data Structures       \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+\vspace*{2mm}
+{\textbf{Graphelier - Capstone Engineering Project}} {\sl React, MongoDB, Go, AWS} \hfill https://github.com/Lercerss/graphelier\\
+\vspace*{1mm}
+With Squarepoint Capital as a stakeholder, developed an open-source visualization tool used to compress gigabytes of market data into a fast, responsive, and compact interface.\\
+\vspace*{2mm}
+{\textbf{AntennaPod}} {\sl Java, Android, Django} \\
+\vspace*{1mm}
+Forked off a robust open-source Android mobile application and enhanced it with new features in Java such as the development of a Python REST API to service a user authentication system.\\
+\vspace*{2mm}
+{\textbf{WarHacks 2019 Registration System}} {\sl Node, AngularJS, MongoDB, AWS EC2, S3, SES, Lambda} \\
+\vspace*{1mm}
+Acted as webmaster of an application developed for the registration of participants to WarHacks 2019, a hackathon held for approximately a hundred CEGEP students.\\
+\vspace*{1mm}
+Developed features such as a serverless function with Lambda to redirect incoming public email traffic to a single mailbox and a microservice to handle the distribution of text messages from a dashboard to the users of the system.
+\newline
+
+\vspace*{2mm}
+
+\header{Awards}
+\textbf{Concordia ENCS Entrance Scholarship}\\
+Awarded to first-year students with exceptional academic standings in CEGEP \hfill August 2016\\
+\vspace*{2mm}
+
+\ 
+\end{document}
