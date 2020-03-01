@@ -60,7 +60,7 @@ body, html {
 }
 
 .image1{
-	background-image: url(../images/home.jpg);
+	background-image: url(../images/home.jfif);
 	min-height: 100%;
 	width: 100%;
 	opacity: 0.9;
@@ -76,7 +76,7 @@ body, html {
 	width: 100%;
 }
 .image4{
-	background-image: url(../images/autoportrait_home.jpg);
+	background-image: url(../images/autoportrait_home.png);
 	min-height: 100%;
 	width: 100%;
 }
