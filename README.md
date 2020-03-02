@@ -7,7 +7,7 @@ Personal website to share information about myself: CV, experience, and interest
     - Apache
  - Hosted on GitHub Pages
 
-Visit me [here](https://viivienn.me)!
+Visit me [here](https://viivienn.github.io/portfolio/)!
 
 # Contact
 Contact me via email at viivienn@gmail.com__
