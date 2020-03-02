@@ -61,8 +61,8 @@ body, html {
 
 .image1{
 	background-image: url(../images/home.jpg);
-	min-height: 90%;
-	width: 90%;
+	min-height: 100%;
+	width: 100%;
 	opacity: 0.9;
 }
 .image2{
